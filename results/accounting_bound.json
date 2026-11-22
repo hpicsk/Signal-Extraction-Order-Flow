@@ -1,0 +1,12 @@
+{
+  "capacity": {
+    "n_obs": 1108586,
+    "max_abs_stv": 0.9924605723562716,
+    "share_abs_stv_above_one": 0.0
+  },
+  "volume": {
+    "n_obs": 3298239,
+    "max_abs_stv": 0.999521274738923,
+    "share_abs_stv_above_one": 0.0
+  }
+}

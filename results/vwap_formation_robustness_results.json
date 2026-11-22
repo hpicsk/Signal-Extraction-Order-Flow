@@ -1,0 +1,42 @@
+{
+  "config": {
+    "return_col": "R_t1",
+    "min_stocks_per_day": 30
+  },
+  "korea": {
+    "capacity_bound": {
+      "label": "Korea Capacity-Bound Inst.",
+      "matched_filter": "S^MC",
+      "matched_arm": "MC",
+      "close": {
+        "uni_t": 7.925796695288255,
+        "hr_matched_t": 8.705005599947256,
+        "hr_mismatched_t": -5.926036816284536,
+        "n_days": 1472
+      },
+      "vwap": {
+        "uni_t": 7.838704921207112,
+        "hr_matched_t": 8.622639561034779,
+        "hr_mismatched_t": -5.901805117627558,
+        "n_days": 1472
+      }
+    },
+    "foreign": {
+      "label": "Korea Foreign",
+      "matched_filter": "S^TV",
+      "matched_arm": "TV",
+      "close": {
+        "uni_t": 18.04650908380292,
+        "hr_matched_t": 18.662353572624383,
+        "hr_mismatched_t": -1.9245891622625058,
+        "n_days": 1472
+      },
+      "vwap": {
+        "uni_t": 18.04650908380292,
+        "hr_matched_t": 18.725620388817468,
+        "hr_mismatched_t": -2.0803716939409815,
+        "n_days": 1472
+      }
+    }
+  }
+}

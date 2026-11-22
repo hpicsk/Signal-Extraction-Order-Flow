@@ -1,0 +1,124 @@
+{
+  "config": {
+    "return_horizon": "R_t1",
+    "min_stocks_per_day": 30,
+    "kospi200_proxy_for": "MSCI Korea Standard passively-held universe",
+    "ticker_normalisation": "FnGuide 'A'-prefix stripped to KRX 6-digit"
+  },
+  "full": {
+    "panel_size": 3298239,
+    "n_unique_stocks": 2713,
+    "n_unique_dates": 1473,
+    "univariate_TV": {
+      "coefficient": 0.0007202135652585719,
+      "se": 3.990874699999331e-05,
+      "t_stat": 18.04650908380292,
+      "p_value": 0.0,
+      "n_days": 1472,
+      "avg_n_stocks": 2238.858695652174
+    },
+    "horse_race": {
+      "signal_TV": {
+        "coefficient": 0.0007654061204545913,
+        "se": 4.101337580364772e-05,
+        "t_stat": 18.662353572624383,
+        "p_value": 0.0
+      },
+      "signal_MC": {
+        "coefficient": -0.00010324460072460723,
+        "se": 5.364500785364241e-05,
+        "t_stat": -1.9245891622625064,
+        "p_value": 0.054280862312913625
+      },
+      "n_days": 1472,
+      "avg_n_stocks": 2238.858695652174
+    }
+  },
+  "kospi200": {
+    "panel_size": 294279,
+    "n_unique_stocks": 283,
+    "n_unique_dates": 1473,
+    "univariate_TV": {
+      "coefficient": -0.0003778276175340902,
+      "se": 5.91621344481001e-05,
+      "t_stat": -6.386308084701354,
+      "p_value": 1.7019052833688875e-10,
+      "n_days": 1472,
+      "avg_n_stocks": 199.77921195652175
+    },
+    "horse_race": {
+      "signal_TV": {
+        "coefficient": -0.00037798223663646516,
+        "se": 7.674277629901596e-05,
+        "t_stat": -4.92531355868229,
+        "p_value": 8.427075095518433e-07
+      },
+      "signal_MC": {
+        "coefficient": -1.3516829064316442e-05,
+        "se": 9.756981431738692e-05,
+        "t_stat": -0.13853494709282999,
+        "p_value": 0.8898177469529966
+      },
+      "n_days": 1472,
+      "avg_n_stocks": 199.77921195652175
+    }
+  },
+  "non_kospi200": {
+    "panel_size": 3003960,
+    "n_unique_stocks": 2573,
+    "n_unique_dates": 1473,
+    "univariate_TV": {
+      "coefficient": 0.0008273130617666972,
+      "se": 4.059201041771296e-05,
+      "t_stat": 20.381179775360085,
+      "p_value": 0.0,
+      "n_days": 1472,
+      "avg_n_stocks": 2039.0794836956522
+    },
+    "horse_race": {
+      "signal_TV": {
+        "coefficient": 0.0008891244286327218,
+        "se": 4.201658331279933e-05,
+        "t_stat": 21.161273919240163,
+        "p_value": 0.0
+      },
+      "signal_MC": {
+        "coefficient": -0.00013665369181149728,
+        "se": 5.6032695105483936e-05,
+        "t_stat": -2.4388206127554795,
+        "p_value": 0.01473533851105957
+      },
+      "n_days": 1472,
+      "avg_n_stocks": 2039.0794836956522
+    }
+  },
+  "non_kospi200_largest": {
+    "panel_size": 372517,
+    "n_unique_stocks": 888,
+    "n_unique_dates": 1473,
+    "univariate_TV": {
+      "coefficient": 0.0003294079070812618,
+      "se": 6.76415210245007e-05,
+      "t_stat": 4.869906857386393,
+      "p_value": 1.1169655498299846e-06,
+      "n_days": 1472,
+      "avg_n_stocks": 252.85258152173913
+    },
+    "horse_race": {
+      "signal_TV": {
+        "coefficient": 0.000267827436715332,
+        "se": 7.862484779075613e-05,
+        "t_stat": 3.40639688649191,
+        "p_value": 0.0006583336451713162
+      },
+      "signal_MC": {
+        "coefficient": 9.683342122991571e-05,
+        "se": 0.00012386898177270018,
+        "t_stat": 0.7817406734448276,
+        "p_value": 0.4343674902937753
+      },
+      "n_days": 1472,
+      "avg_n_stocks": 252.85258152173913
+    }
+  }
+}

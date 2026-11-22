@@ -1,0 +1,155 @@
+{
+  "config": {
+    "skip_days": 2,
+    "baseline_col": "R_t1",
+    "min_stocks_per_day": 30
+  },
+  "korea": {
+    "capacity_bound": {
+      "label": "Korea Capacity-Bound Inst.",
+      "matched_filter": "S^MC",
+      "matched_arm": "MC",
+      "baseline": {
+        "investor_type": "capacity_bound",
+        "n_days": 1472,
+        "univariate_MC": {
+          "mean": 0.00044491255962161543,
+          "t_stat": 7.925796695288255,
+          "p_value": 2.220446049250313e-15,
+          "n_days": 1472,
+          "mean_R2": 0.5233409664144075
+        },
+        "univariate_TV": {
+          "mean": 7.682401686597352e-05,
+          "t_stat": 2.191816286567923,
+          "p_value": 0.028392982023346836,
+          "n_days": 1472,
+          "mean_R2": 0.19469597821102821
+        },
+        "horse_race_MC": {
+          "mean": 0.0005816759857623377,
+          "t_stat": 8.705005599947256,
+          "p_value": 0.0,
+          "n_days": 1472
+        },
+        "horse_race_TV": {
+          "mean": -0.0002466041000813339,
+          "t_stat": -5.926036816284536,
+          "p_value": 3.1042428627614527e-09,
+          "n_days": 1472
+        },
+        "horse_race_R2": 0.7182279156715243
+      },
+      "skip": {
+        "investor_type": "capacity_bound",
+        "n_days": 1471,
+        "univariate_MC": {
+          "mean": 2.4609791709836156e-05,
+          "t_stat": 0.48801929279028977,
+          "p_value": 0.6255362723736597,
+          "n_days": 1471,
+          "mean_R2": 0.4290557673198619
+        },
+        "univariate_TV": {
+          "mean": -6.668548385592889e-05,
+          "t_stat": -1.8128771388785936,
+          "p_value": 0.06985104367772443,
+          "n_days": 1471,
+          "mean_R2": 0.2107159053841822
+        },
+        "horse_race_MC": {
+          "mean": 8.172652487260164e-05,
+          "t_stat": 1.4275437470216206,
+          "p_value": 0.1534235069176242,
+          "n_days": 1471
+        },
+        "horse_race_TV": {
+          "mean": -0.00010867524201309275,
+          "t_stat": -2.7251919898387023,
+          "p_value": 0.006426511553726311,
+          "n_days": 1471
+        },
+        "horse_race_R2": 0.6016409521892991
+      },
+      "uni_t_baseline": 7.925796695288255,
+      "uni_t_skip": 0.48801929279028977,
+      "hr_t_baseline": 8.705005599947256,
+      "hr_t_skip": 1.4275437470216206,
+      "n_days_baseline": 1472,
+      "n_days_skip": 1471
+    },
+    "foreign": {
+      "label": "Korea Foreign",
+      "matched_filter": "S^TV",
+      "matched_arm": "TV",
+      "baseline": {
+        "investor_type": "foreign",
+        "n_days": 1472,
+        "univariate_MC": {
+          "mean": 0.000252108337238474,
+          "t_stat": 4.987749565491709,
+          "p_value": 6.108977743668476e-07,
+          "n_days": 1472,
+          "mean_R2": 0.31118152534009064
+        },
+        "univariate_TV": {
+          "mean": 0.0007202135652585719,
+          "t_stat": 18.04650908380292,
+          "p_value": 0.0,
+          "n_days": 1472,
+          "mean_R2": 0.24416942648110815
+        },
+        "horse_race_MC": {
+          "mean": -0.00010324460072460719,
+          "t_stat": -1.9245891622625058,
+          "p_value": 0.05428086231291385,
+          "n_days": 1472
+        },
+        "horse_race_TV": {
+          "mean": 0.0007654061204545913,
+          "t_stat": 18.662353572624383,
+          "p_value": 0.0,
+          "n_days": 1472
+        },
+        "horse_race_R2": 0.5209434457160672
+      },
+      "skip": {
+        "investor_type": "foreign",
+        "n_days": 1471,
+        "univariate_MC": {
+          "mean": 0.00010785225228022584,
+          "t_stat": 2.314035912246269,
+          "p_value": 0.020665813543408573,
+          "n_days": 1471,
+          "mean_R2": 0.2740126253892477
+        },
+        "univariate_TV": {
+          "mean": 8.928719938151554e-05,
+          "t_stat": 2.429746733968916,
+          "p_value": 0.015109429937160135,
+          "n_days": 1471,
+          "mean_R2": 0.16604498086587877
+        },
+        "horse_race_MC": {
+          "mean": 8.872696224630224e-05,
+          "t_stat": 1.7634896902610946,
+          "p_value": 0.07781802732153431,
+          "n_days": 1471
+        },
+        "horse_race_TV": {
+          "mean": 4.4309216524181965e-05,
+          "t_stat": 1.1317739715855595,
+          "p_value": 0.2577295556384547,
+          "n_days": 1471
+        },
+        "horse_race_R2": 0.4232709910343758
+      },
+      "uni_t_baseline": 18.04650908380292,
+      "uni_t_skip": 2.429746733968916,
+      "hr_t_baseline": 18.662353572624383,
+      "hr_t_skip": 1.1317739715855595,
+      "n_days_baseline": 1472,
+      "n_days_skip": 1471
+    }
+  }
+}

@@ -1,0 +1,28 @@
+# Criteria fixed before the runs they grade, with the commits that are the
+# record.  Read by check_criterion_timing_matches_the_history.
+#
+# This tree is a snapshot of its development repository and carries no history
+# of its own, so every script arrives in one commit together with the results
+# it grades.  The commit order that is the record is in the development
+# repository for the last two rows, and for the rows before them in the tree
+# that repository was ported from, qf_kor, at its commit 2bc0a4b.  Each row
+# below was verified there with `git merge-base --is-ancestor`: the
+# criterion's commit is an ancestor of the commit adding the results, not
+# merely an earlier date.
+#
+# A commit hash in a mutable tree is not an identifier a reader can resolve.
+# This file discharges this repository's own gate.  It is not evidence a reader can
+# check, and no sentence in the manuscript rests on it.
+#
+# Adding a row here does not make a claim true.  A script that arrives at the
+# port commit and is absent from this file fails the gate; a row naming a
+# script that no longer claims its timing, or that was added after the port,
+# fails it too.  A claiming script added after the port is graded by this
+# repository's own history, as it would be in any tree.
+#
+# script	claim	criterion commit	date	results file	results commit	date
+code/empirical/robustness/participation_matching.py	committed before	c5b331ce	2026-08-07	participation_matching_results.json	0a1e57fc	2026-08-08
+code/empirical/robustness/size_restricted_common.py	committed before	5c2b4507	2026-08-09	size_restricted_common.json	b81b0555	2026-08-09
+code/empirical/robustness/window_2025_criteria.py	committed before	41fbe120	2026-09-16	window_2025_verdicts.json	899f4359	2026-09-16
+code/empirical/robustness/investment_trust_inclusion.py	committed before	07adb60	2026-10-06	investment_trust_inclusion.json	04cc41f	2026-11-03
+code/empirical/taiwan/twn_contrast.py	committed before	f8978d6	2026-11-16	twn_contrast_results.json	d0691e6	2026-11-22

@@ -1,0 +1,78 @@
+{
+  "window": "2020-2025",
+  "crit_1pct": 2.5758293035489004,
+  "crit_5pct": 1.959963984540054,
+  "verdicts": [
+    {
+      "id": "K1",
+      "claim": "capacity-bound t_MC^HR > CRIT_1PCT and t_TV^HR < 0",
+      "values": {
+        "t_MC_HR": 8.705005599947256,
+        "t_TV_HR": -5.926036816284536
+      },
+      "passed": true
+    },
+    {
+      "id": "K2",
+      "claim": "foreign t_TV^HR > CRIT_1PCT and t_MC^HR < 0",
+      "values": {
+        "t_TV_HR": 18.662353572624383,
+        "t_MC_HR": -1.9245891622625058
+      },
+      "passed": true
+    },
+    {
+      "id": "K3",
+      "claim": "stacked reversal b4 - b3 > 0 with t > CRIT_1PCT",
+      "values": {
+        "reversal": 0.0004996821983975662,
+        "t": 6.917714650396335
+      },
+      "passed": true
+    },
+    {
+      "id": "K4",
+      "claim": "capacity-bound excess > 1 > foreign excess, each at the randomisation floor",
+      "values": {
+        "capacity_excess": 1.5439107326629569,
+        "foreign_excess": 0.6943861704876041,
+        "capacity_p": 0.00019998000199980003,
+        "foreign_p": 0.00019998000199980003,
+        "floor": 0.00019998000199980003
+      },
+      "passed": true
+    },
+    {
+      "id": "K5",
+      "claim": "foreign half < 0 with t < -CRIT_5PCT",
+      "values": {
+        "foreign_half": -0.00013692356570992634,
+        "t": -2.2746913331118566
+      },
+      "passed": true
+    },
+    {
+      "id": "K6",
+      "claim": "day-two reversal t < CRIT_5PCT and foreign half > 0",
+      "values": {
+        "reversal_t": -0.27525070163670173,
+        "foreign_half": 0.00010878427952084094,
+        "foreign_half_t": 2.000654769193249
+      },
+      "passed": true
+    },
+    {
+      "id": "K7",
+      "claim": "capacity-bound t_MC^HR > CRIT_5PCT in every year",
+      "values": {
+        "2020": 5.096657981175051,
+        "2021": 5.368904898804464,
+        "2022": 3.200331221375266,
+        "2023": 2.550466652165102,
+        "2024": 2.859486954661782,
+        "2025": 2.254585300967556
+      },
+      "passed": true
+    }
+  ]
+}

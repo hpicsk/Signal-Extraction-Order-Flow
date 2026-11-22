@@ -1,0 +1,89 @@
+{
+  "config": {
+    "min_days": 250,
+    "se_type": "HC1"
+  },
+  "korea": {
+    "space": "value",
+    "capacity_bound": {
+      "label": "Capacity-Bound Institutions",
+      "n_stocks": 1146,
+      "directionality_median": 0.0823056495037281,
+      "gross_flow": {
+        "beta_M": 1.009548216368488,
+        "t_M": 39.24108555269073,
+        "beta_V": 0.1664551423103058,
+        "t_V": 6.9588986077972885,
+        "dominant": "M"
+      },
+      "net_accum": {
+        "beta_M": 1.1536705824711444,
+        "t_M": 27.391082587354806,
+        "beta_V": -0.04135616282350335,
+        "t_V": -1.0032560083799342,
+        "dominant": "M"
+      }
+    },
+    "foreign": {
+      "label": "Foreign",
+      "n_stocks": 2549,
+      "directionality_median": 0.030277183562905638,
+      "gross_flow": {
+        "beta_M": 0.5074604390585085,
+        "t_M": 71.21309390480613,
+        "beta_V": 0.6191353228620764,
+        "t_V": 70.0620303325249,
+        "dominant": "V"
+      },
+      "net_accum": {
+        "beta_M": 0.7935335282191978,
+        "t_M": 33.208347670241864,
+        "beta_V": 0.44789391184151295,
+        "t_V": 16.44983350575482,
+        "dominant": "M"
+      }
+    }
+  },
+  "korea_preperiod": {
+    "window": "2015-2019",
+    "space": "value",
+    "capacity_bound": {
+      "label": "Capacity-Bound Institutions",
+      "n_stocks": 934,
+      "directionality_median": 0.10441803837826652,
+      "gross_flow": {
+        "beta_M": 0.6626345802156011,
+        "t_M": 21.632256856451164,
+        "beta_V": 0.350086721165316,
+        "t_V": 10.908338567813459,
+        "dominant": "M"
+      },
+      "net_accum": {
+        "beta_M": 0.6570067234239092,
+        "t_M": 15.44052764864641,
+        "beta_V": 0.14442797949173647,
+        "t_V": 3.6859177056469847,
+        "dominant": "M"
+      }
+    },
+    "foreign": {
+      "label": "Foreign",
+      "n_stocks": 2095,
+      "directionality_median": 0.03920866775577769,
+      "gross_flow": {
+        "beta_M": 0.5733434818273304,
+        "t_M": 70.53954911521198,
+        "beta_V": 0.6408635583379914,
+        "t_V": 67.98378230923458,
+        "dominant": "V"
+      },
+      "net_accum": {
+        "beta_M": 1.0492845147264807,
+        "t_M": 40.60689350835005,
+        "beta_V": 0.33464264413789974,
+        "t_V": 11.434653573590605,
+        "dominant": "M"
+      }
+    }
+  }
+}

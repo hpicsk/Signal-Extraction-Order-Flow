@@ -1,0 +1,126 @@
+{
+  "panel": {
+    "n_rows": 2571372,
+    "n_stocks": 1974,
+    "n_dates": 1459,
+    "start_date": "2020-01-02",
+    "end_date": "2025-12-31"
+  },
+  "by_investor": {
+    "institutional": {
+      "label": "Investment Trust (SITC)",
+      "panel_size": 404548,
+      "n_unique_stocks": 1239,
+      "univariate_MC": {
+        "coefficient": 0.0017280136507176898,
+        "se": 7.547333105567295e-05,
+        "t_stat": 22.895685489792672,
+        "p_value": 0.0,
+        "n_days": 1458,
+        "avg_n_stocks": 277.20713305898494
+      },
+      "univariate_TV": {
+        "coefficient": 0.0009429553493186587,
+        "se": 5.698927375069722e-05,
+        "t_stat": 16.546189962758078,
+        "p_value": 0.0,
+        "n_days": 1458,
+        "avg_n_stocks": 277.20713305898494
+      },
+      "horse_race": {
+        "signal_MC": {
+          "coefficient": 0.001721138305050806,
+          "se": 8.367738533660105e-05,
+          "t_stat": 20.56873907002886,
+          "p_value": 0.0
+        },
+        "signal_TV": {
+          "coefficient": 3.3187861425251917e-05,
+          "se": 6.011088516514519e-05,
+          "t_stat": 0.5521106756966478,
+          "p_value": 0.5808728333804023
+        },
+        "n_days": 1458,
+        "avg_n_stocks": 277.20713305898494
+      }
+    },
+    "foreign": {
+      "label": "Foreign Investor",
+      "panel_size": 2259099,
+      "n_unique_stocks": 1974,
+      "univariate_MC": {
+        "coefficient": 0.0009570380163869841,
+        "se": 4.333140244835004e-05,
+        "t_stat": 22.086476834617798,
+        "p_value": 0.0,
+        "n_days": 1458,
+        "avg_n_stocks": 1548.2668038408779
+      },
+      "univariate_TV": {
+        "coefficient": 0.0007659208149510072,
+        "se": 3.7418366157921156e-05,
+        "t_stat": 20.469114330607088,
+        "p_value": 0.0,
+        "n_days": 1458,
+        "avg_n_stocks": 1548.2668038408779
+      },
+      "horse_race": {
+        "signal_MC": {
+          "coefficient": 0.0007809298401424904,
+          "se": 4.258535568084687e-05,
+          "t_stat": 18.337990317495933,
+          "p_value": 0.0
+        },
+        "signal_TV": {
+          "coefficient": 0.0004413705078120687,
+          "se": 3.5514333698815344e-05,
+          "t_stat": 12.427954063707848,
+          "p_value": 0.0
+        },
+        "n_days": 1458,
+        "avg_n_stocks": 1548.2668038408779
+      }
+    }
+  },
+  "a_priori_assignment": {
+    "institutional": {
+      "regime": "capacity",
+      "matched_filter": "S^MC"
+    },
+    "foreign": {
+      "regime": "volume",
+      "matched_filter": "S^TV"
+    }
+  },
+  "corporate_action_sensitivity": {
+    "n_event_rows": 9378,
+    "share_event_rows": 0.003647080235765187,
+    "by_investor": {
+      "institutional": {
+        "signal_MC": {
+          "t_stat": 20.547041577764062,
+          "published_t_stat": 20.56873907002886,
+          "abs_drift": 0.021697492264799223
+        },
+        "signal_TV": {
+          "t_stat": 0.8520586169789225,
+          "published_t_stat": 0.5521106756966478,
+          "abs_drift": 0.29994794128227464
+        }
+      },
+      "foreign": {
+        "signal_MC": {
+          "t_stat": 18.29187615403934,
+          "published_t_stat": 18.337990317495933,
+          "abs_drift": 0.04611416345659336
+        },
+        "signal_TV": {
+          "t_stat": 12.333156607039395,
+          "published_t_stat": 12.427954063707848,
+          "abs_drift": 0.09479745666845218
+        }
+      }
+    },
+    "max_abs_drift": 0.29994794128227464
+  }
+}

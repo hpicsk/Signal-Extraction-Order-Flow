@@ -1,0 +1,33 @@
+{
+  "config": {
+    "window": [
+      "2020-01-02",
+      "2025-12-31"
+    ],
+    "sheets": {
+      "buy_reg": "\ub9e4\uc218\ub300\uae08(\ub4f1\ub85d\uc678\uad6d\uc778)",
+      "sell_reg": "\ub9e4\ub3c4\ub300\uae08(\ub4f1\ub85d\uc678\uad6d\uc778)",
+      "buy_oth": "\ub9e4\uc218\ub300\uae08(\uae30\ud0c0\uc678\uad6d\uc778)",
+      "sell_oth": "\ub9e4\ub3c4\ub300\uae08(\uae30\ud0c0\uc678\uad6d\uc778)"
+    }
+  },
+  "panel": {
+    "n_stock_days": 3323510,
+    "n_tickers": 2716,
+    "n_days": 1473,
+    "gross_registered_krw": 1.151744150066e+16,
+    "gross_other_krw": 117625003770000.0,
+    "gross_other_share_pct": 1.0109525693318109,
+    "net_other_share_pct": 1.6377597640781891,
+    "sign_flip_share_pct": 1.2441966475202422,
+    "days_traded_share_pct": 72.40282111382244,
+    "max_registered_mismatch_krw": 0.0,
+    "n_zero_net": 25271,
+    "n_zero_net_with_gross": 2788,
+    "capacity_bound": {
+      "max_net_mismatch_krw": 0.0,
+      "n_zero_net": 2214924,
+      "n_zero_net_with_gross": 12891
+    }
+  }
+}

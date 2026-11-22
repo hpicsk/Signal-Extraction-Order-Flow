@@ -1,0 +1,139 @@
+{
+  "config": {
+    "n_draws": 10000,
+    "min_days": 250,
+    "seed": 42
+  },
+  "korea": {
+    "window": "2020-2025",
+    "space": "value",
+    "capacity_bound": {
+      "label": "Capacity-Bound Institutions",
+      "n_stocks": 1146,
+      "median_days": 893.5,
+      "observed": 0.0823056495037281,
+      "null_mean": 0.05330984995600507,
+      "null_sd": 0.0018720126528342504,
+      "null_gaussian_median": 0.03345439501618252,
+      "excess": 1.5439107326629569,
+      "p_two_sided": 0.00019998000199980003,
+      "p_two_sided_mc_se": 0.0
+    },
+    "foreign": {
+      "label": "Foreign",
+      "n_stocks": 2549,
+      "median_days": 1471.0,
+      "observed": 0.030277183562905638,
+      "null_mean": 0.043602803237922684,
+      "null_sd": 0.0010064731407640353,
+      "null_gaussian_median": 0.02607315963394304,
+      "excess": 0.6943861704876041,
+      "p_two_sided": 0.00019998000199980003,
+      "p_two_sided_mc_se": 0.0
+    },
+    "ordering": {
+      "observed": 2.718405076638819,
+      "null": 1.222624372683449,
+      "excess": 2.2234180320423276
+    }
+  },
+  "korea_preperiod": {
+    "window": "2015-2019",
+    "space": "value",
+    "capacity_bound": {
+      "label": "Capacity-Bound Institutions",
+      "n_stocks": 934,
+      "median_days": 764.0,
+      "observed": 0.10441803837826652,
+      "null_mean": 0.05200201314349334,
+      "null_sd": 0.0019835080178764648,
+      "null_gaussian_median": 0.03617873026462108,
+      "excess": 2.007961462763709,
+      "p_two_sided": 0.00019998000199980003,
+      "p_two_sided_mc_se": 0.0
+    },
+    "foreign": {
+      "label": "Foreign",
+      "n_stocks": 2095,
+      "median_days": 1218.0,
+      "observed": 0.03920866775577769,
+      "null_mean": 0.04466971146229221,
+      "null_sd": 0.0011451030581078046,
+      "null_gaussian_median": 0.02865341275306264,
+      "excess": 0.8777461611516242,
+      "p_two_sided": 0.00019998000199980003,
+      "p_two_sided_mc_se": 0.0
+    },
+    "ordering": {
+      "observed": 2.663136606136783,
+      "null": 1.1641448185173675,
+      "excess": 2.28763343166231
+    }
+  },
+  "taiwan": {
+    "window": "2020-2025",
+    "space": "value",
+    "institutional": {
+      "label": "Investment Trust (SITC)",
+      "n_stocks": 445,
+      "median_days": 731.0,
+      "observed": 0.05872010160598856,
+      "null_mean": 0.06235446601578782,
+      "null_sd": 0.0034327494945398398,
+      "null_gaussian_median": 0.036986336072765455,
+      "excess": 0.9417144489878391,
+      "p_two_sided": 0.28777122287771223,
+      "p_two_sided_mc_se": 0.007017736387183548
+    },
+    "foreign": {
+      "label": "Foreign",
+      "n_stocks": 1815,
+      "median_days": 1413.0,
+      "observed": 0.02519881551548528,
+      "null_mean": 0.04482815952339838,
+      "null_sd": 0.0012285865183882944,
+      "null_gaussian_median": 0.026602896148920738,
+      "excess": 0.5621202338751511,
+      "p_two_sided": 0.00019998000199980003,
+      "p_two_sided_mc_se": 0.0
+    },
+    "ordering": {
+      "observed": 2.330272292755334,
+      "null": 1.3909664523086533,
+      "excess": 1.6752900753915883
+    }
+  },
+  "taiwan_share_space": {
+    "window": "2020-2025",
+    "space": "share",
+    "institutional": {
+      "label": "Investment Trust (SITC)",
+      "n_stocks": 443,
+      "median_days": 734.0,
+      "observed": 0.0378492163150072,
+      "null_mean": 0.059385211548494306,
+      "null_sd": 0.0033276565453142512,
+      "null_gaussian_median": 0.03691067352627811,
+      "excess": 0.6373508711693199,
+      "p_two_sided": 0.00019998000199980003,
+      "p_two_sided_mc_se": 0.0
+    },
+    "foreign": {
+      "label": "Foreign",
+      "n_stocks": 1815,
+      "median_days": 1413.0,
+      "observed": 0.02113101380489416,
+      "null_mean": 0.04021330674515522,
+      "null_sd": 0.0010983684360866039,
+      "null_gaussian_median": 0.026602896148920738,
+      "excess": 0.5254731708289561,
+      "p_two_sided": 0.00019998000199980003,
+      "p_two_sided_mc_se": 0.0
+    },
+    "ordering": {
+      "observed": 1.7911689739297285,
+      "null": 1.4767552423588957,
+      "excess": 1.2129084919100095
+    }
+  }
+}

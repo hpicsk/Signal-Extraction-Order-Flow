@@ -1,0 +1,241 @@
+{
+  "by_size": {
+    "capacity_bound": {
+      "Q1": {
+        "univariate_MC": {
+          "S_MC_capacity_bound": {
+            "coef_bp": 4.07286057822597,
+            "t_stat": 0.6033267298756733,
+            "p_value": 0.5463193708956688
+          },
+          "n_days": 102,
+          "n_obs": 4885
+        },
+        "univariate_TV": {
+          "S_TV_capacity_bound": {
+            "coef_bp": -4.2933445563603785,
+            "t_stat": -0.8702039368503987,
+            "p_value": 0.3842317314435635
+          },
+          "n_days": 102,
+          "n_obs": 4885
+        }
+      },
+      "Q2": {
+        "univariate_MC": {
+          "S_MC_capacity_bound": {
+            "coef_bp": 1.2235489375627915,
+            "t_stat": 0.5265359234171285,
+            "p_value": 0.5985186970936258
+          },
+          "n_days": 675,
+          "n_obs": 41740
+        },
+        "univariate_TV": {
+          "S_TV_capacity_bound": {
+            "coef_bp": -1.0533657410915487,
+            "t_stat": -0.8855327624013375,
+            "p_value": 0.3758744589995715
+          },
+          "n_days": 675,
+          "n_obs": 41740
+        }
+      },
+      "Q3": {
+        "univariate_MC": {
+          "S_MC_capacity_bound": {
+            "coef_bp": 4.199499229670165,
+            "t_stat": 3.0578502095079427,
+            "p_value": 0.0022297706474005974
+          },
+          "n_days": 1412,
+          "n_obs": 127733
+        },
+        "univariate_TV": {
+          "S_TV_capacity_bound": {
+            "coef_bp": -0.040970644962611824,
+            "t_stat": -0.05616788276255101,
+            "p_value": 0.9552081544503763
+          },
+          "n_days": 1412,
+          "n_obs": 127733
+        }
+      },
+      "Q4": {
+        "univariate_MC": {
+          "S_MC_capacity_bound": {
+            "coef_bp": 6.061681203614357,
+            "t_stat": 6.3319215661494015,
+            "p_value": 2.4245450092053034e-10
+          },
+          "n_days": 1472,
+          "n_obs": 311602
+        },
+        "univariate_TV": {
+          "S_TV_capacity_bound": {
+            "coef_bp": 0.4602730485493672,
+            "t_stat": 0.9379106071530564,
+            "p_value": 0.348291078577333
+          },
+          "n_days": 1472,
+          "n_obs": 311602
+        }
+      },
+      "Q5": {
+        "univariate_MC": {
+          "S_MC_capacity_bound": {
+            "coef_bp": 3.9373568355805895,
+            "t_stat": 5.760370488655382,
+            "p_value": 8.397038175900207e-09
+          },
+          "n_days": 1472,
+          "n_obs": 599001
+        },
+        "univariate_TV": {
+          "S_TV_capacity_bound": {
+            "coef_bp": 1.4677749722663571,
+            "t_stat": 3.1838959644895883,
+            "p_value": 0.0014531465528755394
+          },
+          "n_days": 1472,
+          "n_obs": 599001
+        }
+      }
+    },
+    "foreign": {
+      "Q1": {
+        "univariate_MC": {
+          "S_MC_foreign": {
+            "coef_bp": 5.829955451553819,
+            "t_stat": 6.12794713532354,
+            "p_value": 8.907050652595672e-10
+          },
+          "n_days": 1472,
+          "n_obs": 656115
+        },
+        "univariate_TV": {
+          "S_TV_foreign": {
+            "coef_bp": 11.714281786425733,
+            "t_stat": 23.171844137822287,
+            "p_value": 0.0
+          },
+          "n_days": 1472,
+          "n_obs": 656115
+        }
+      },
+      "Q2": {
+        "univariate_MC": {
+          "S_MC_foreign": {
+            "coef_bp": 1.5364278286051678,
+            "t_stat": 1.8195000187601902,
+            "p_value": 0.06883563459755915
+          },
+          "n_days": 1472,
+          "n_obs": 657383
+        },
+        "univariate_TV": {
+          "S_TV_foreign": {
+            "coef_bp": 8.690060228136318,
+            "t_stat": 16.904179558240635,
+            "p_value": 0.0
+          },
+          "n_days": 1472,
+          "n_obs": 657383
+        }
+      },
+      "Q3": {
+        "univariate_MC": {
+          "S_MC_foreign": {
+            "coef_bp": 0.751422008526231,
+            "t_stat": 0.8926287422754614,
+            "p_value": 0.37205634830594847
+          },
+          "n_days": 1472,
+          "n_obs": 657856
+        },
+        "univariate_TV": {
+          "S_TV_foreign": {
+            "coef_bp": 7.669505145307547,
+            "t_stat": 14.36710281316354,
+            "p_value": 0.0
+          },
+          "n_days": 1472,
+          "n_obs": 657856
+        }
+      },
+      "Q4": {
+        "univariate_MC": {
+          "S_MC_foreign": {
+            "coef_bp": 2.5546081698472305,
+            "t_stat": 2.996884194574973,
+            "p_value": 0.002727644325419387
+          },
+          "n_days": 1472,
+          "n_obs": 660665
+        },
+        "univariate_TV": {
+          "S_TV_foreign": {
+            "coef_bp": 6.102241661556196,
+            "t_stat": 11.76954877583746,
+            "p_value": 0.0
+          },
+          "n_days": 1472,
+          "n_obs": 660665
+        }
+      },
+      "Q5": {
+        "univariate_MC": {
+          "S_MC_foreign": {
+            "coef_bp": 1.1374424070858868,
+            "t_stat": 1.410060978344193,
+            "p_value": 0.15852214687985988
+          },
+          "n_days": 1472,
+          "n_obs": 663581
+        },
+        "univariate_TV": {
+          "S_TV_foreign": {
+            "coef_bp": 0.36061279966417376,
+            "t_stat": 0.6434373900036803,
+            "p_value": 0.5199405509032133
+          },
+          "n_days": 1472,
+          "n_obs": 663581
+        }
+      }
+    }
+  },
+  "size_composition": {
+    "common_support": {
+      "n_stock_days": 1104301,
+      "share": {
+        "Q1": 0.011694275383251487,
+        "Q2": 0.049058182506399976,
+        "Q3": 0.11628894658249879,
+        "Q4": 0.2810230181807315,
+        "Q5": 0.5419355773471182
+      }
+    },
+    "foreign_nonzero": {
+      "n_stock_days": 3298239,
+      "share": {
+        "Q1": 0.19910503756701683,
+        "Q2": 0.19946765531545774,
+        "Q3": 0.19961349071428722,
+        "Q4": 0.20046303497108608,
+        "Q5": 0.20135078143215213
+      }
+    }
+  },
+  "config": {
+    "n_quintiles": 5,
+    "return_horizon": "R_t1",
+    "min_stocks_per_day": 30,
+    "matched_filter": {
+      "capacity_bound": "MC",
+      "foreign": "TV"
+    },
+    "panel_rows": 3323510,
+    "panel_dates": 1473
+  }
+}

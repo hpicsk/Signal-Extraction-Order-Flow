@@ -1,0 +1,133 @@
+{
+  "return_predictions": {
+    "foreign": {
+      "investor_type": "foreign",
+      "n_days": 1472,
+      "univariate_MC": {
+        "mean": 0.000252108337238474,
+        "t_stat": 4.987749565491709,
+        "p_value": 6.108977743668476e-07,
+        "n_days": 1472,
+        "mean_R2": 0.31118152534009064
+      },
+      "univariate_TV": {
+        "mean": 0.0007202135652585719,
+        "t_stat": 18.04650908380292,
+        "p_value": 0.0,
+        "n_days": 1472,
+        "mean_R2": 0.24416942648110815
+      },
+      "horse_race_MC": {
+        "mean": -0.00010324460072460719,
+        "t_stat": -1.9245891622625058,
+        "p_value": 0.05428086231291385,
+        "n_days": 1472
+      },
+      "horse_race_TV": {
+        "mean": 0.0007654061204545913,
+        "t_stat": 18.662353572624383,
+        "p_value": 0.0,
+        "n_days": 1472
+      },
+      "horse_race_R2": 0.5209434457160672,
+      "return_horizon": "R_t1"
+    },
+    "capacity_bound": {
+      "investor_type": "capacity_bound",
+      "n_days": 1472,
+      "univariate_MC": {
+        "mean": 0.00044491255962161543,
+        "t_stat": 7.925796695288255,
+        "p_value": 2.220446049250313e-15,
+        "n_days": 1472,
+        "mean_R2": 0.5233409664144075
+      },
+      "univariate_TV": {
+        "mean": 7.682401686597352e-05,
+        "t_stat": 2.191816286567923,
+        "p_value": 0.028392982023346836,
+        "n_days": 1472,
+        "mean_R2": 0.19469597821102821
+      },
+      "horse_race_MC": {
+        "mean": 0.0005816759857623377,
+        "t_stat": 8.705005599947256,
+        "p_value": 0.0,
+        "n_days": 1472
+      },
+      "horse_race_TV": {
+        "mean": -0.0002466041000813339,
+        "t_stat": -5.926036816284536,
+        "p_value": 3.1042428627614527e-09,
+        "n_days": 1472
+      },
+      "horse_race_R2": 0.7182279156715243,
+      "return_horizon": "R_t1"
+    },
+    "individual": {
+      "investor_type": "individual",
+      "n_days": 1472,
+      "univariate_MC": {
+        "mean": -0.0007369273739707048,
+        "t_stat": -12.062566773142144,
+        "p_value": 0.0,
+        "n_days": 1472,
+        "mean_R2": 0.5059136314525954
+      },
+      "univariate_TV": {
+        "mean": -0.0006999362466843786,
+        "t_stat": -19.15876541328662,
+        "p_value": 0.0,
+        "n_days": 1472,
+        "mean_R2": 0.20613930604751896
+      },
+      "horse_race_MC": {
+        "mean": -0.0005414296524947973,
+        "t_stat": -8.274801465509944,
+        "p_value": 2.220446049250313e-16,
+        "n_days": 1472
+      },
+      "horse_race_TV": {
+        "mean": -0.000504579492155735,
+        "t_stat": -12.926758523231374,
+        "p_value": 0.0,
+        "n_days": 1472
+      },
+      "horse_race_R2": 0.6849531481510129,
+      "return_horizon": "R_t1"
+    },
+    "institutional_aggregate": {
+      "investor_type": "institutional_aggregate",
+      "n_days": 1472,
+      "univariate_MC": {
+        "mean": 0.0005404458852443772,
+        "t_stat": 9.334625244739332,
+        "p_value": 0.0,
+        "n_days": 1472,
+        "mean_R2": 0.4770346545964724
+      },
+      "univariate_TV": {
+        "mean": 7.697999668025306e-05,
+        "t_stat": 2.3683593224392965,
+        "p_value": 0.01786725104326803,
+        "n_days": 1472,
+        "mean_R2": 0.13903318830286673
+      },
+      "horse_race_MC": {
+        "mean": 0.0006067322334619648,
+        "t_stat": 9.742817159929125,
+        "p_value": 0.0,
+        "n_days": 1472
+      },
+      "horse_race_TV": {
+        "mean": -0.00015000080750821653,
+        "t_stat": -4.2460906012933854,
+        "p_value": 2.17540711053843e-05,
+        "n_days": 1472
+      },
+      "horse_race_R2": 0.6137120693549629,
+      "return_horizon": "R_t1"
+    }
+  },
+  "timestamp": "2026-09-25T18:11:51.479209"
+}
